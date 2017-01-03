@@ -1,0 +1,10 @@
+#include "../include/edge.h"
+
+
+namespace ay_graph
+{
+	template <class T>
+	E<T>::E()
+	: index(0), end1(0), end2(0)
+	{}
+}

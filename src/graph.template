@@ -1,0 +1,10 @@
+#include "../include/graph.h"
+
+
+namespace ay_graph
+{
+	template <class T>
+	G<T>::G()
+	: edgeCount(0), nodeCount(0)
+	{}
+}
