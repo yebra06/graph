@@ -4,6 +4,7 @@
 #include "edge.h"
 #include "node.h"
 
+#include <vector>
 
 namespace ay_graph
 {
@@ -16,8 +17,10 @@ namespace ay_graph
 		private:
 			sizeType edgeCount;
 			sizeType nodeCount;
+			std::vector<E<T> > edges;
+			std::vector<V<T> > nodes;
 	};
 }
 
-#include "../src/graph.template"
+#include "../src/graph.tpp"
 #endif

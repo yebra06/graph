@@ -17,5 +17,5 @@ namespace ay_graph
 	};
 }
 
-#include "../src/edge.template"
+#include "../src/edge.tpp"
 #endif

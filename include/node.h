@@ -9,12 +9,13 @@ namespace ay_graph
 	{
 		public:
 			typedef std::size_t sizeType;
-			V(sizeType degree=0);
+			V(sizeType degree=0, T data=0);
 		private:
 			sizeType index;
 			sizeType degree;
+			T data;
 	};
 }
 
-#include "../src/node.template"
+#include "../src/node.tpp"
 #endif
