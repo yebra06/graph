@@ -9,7 +9,7 @@ namespace ay_graph
 	{
 		public:
 			typedef std::size_t sizeType;
-			E();
+			E(sizeType end1=0, sizeType end2=0);
 		private:
 			sizeType index;
 			sizeType end1;

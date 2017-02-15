@@ -4,7 +4,7 @@
 namespace ay_graph
 {
 	template <class T>
-	G<T>::G()
-	: edgeCount(0), nodeCount(0)
+	G<T>::G(sizeType edgeCount, sizeType nodeCount)
+	: edgeCount(edgeCount), nodeCount(nodeCount)
 	{}
 }

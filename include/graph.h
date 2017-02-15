@@ -12,7 +12,7 @@ namespace ay_graph
 	{
 		public:
 			typedef std::size_t sizeType;
-			G();
+			G(sizeType edgeCount=0, sizeType nodeCount=0);
 		private:
 			sizeType edgeCount;
 			sizeType nodeCount;

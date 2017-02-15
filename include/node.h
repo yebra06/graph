@@ -9,7 +9,7 @@ namespace ay_graph
 	{
 		public:
 			typedef std::size_t sizeType;
-			V();
+			V(sizeType degree=0);
 		private:
 			sizeType index;
 			sizeType degree;

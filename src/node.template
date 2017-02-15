@@ -4,7 +4,7 @@
 namespace ay_graph
 {
 	template <class T>
-	V<T>::V()
-	: index(0), degree(0)
+	V<T>::V(sizeType degree)
+	: index(0), degree(degree)
 	{}
 }
