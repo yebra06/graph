@@ -9,8 +9,9 @@ namespace ay_graph
 	{
 		for (int e = 0, n = 0; n < nodeCount; e++, n++)
 		{
-	    edges.push_back(E<T>(e));
-	    nodes.push_back(V<T>(n));
-	  }
+			edges.push_back(E<T>(e));
+			nodes.push_back(V<T>(n));
+		}
 	}
 }
+
